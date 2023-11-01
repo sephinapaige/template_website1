@@ -1,0 +1,198 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    height: 8vh;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    padding-left: 150px;
+}
+
+.head i {
+    margin-left: 20px;
+}
+
+.second {
+    height: 35vh;
+    width: 100%;
+}
+
+.first1 {
+    display: flex;
+    padding: 40px;
+}
+
+.logo {
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+strong {
+    color: green;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+span {
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+
+input {
+    background-color: rgba(89, 240, 89, 0.295);
+    border: transparent;
+    border-radius: 15px;
+    height: 35px;
+    width: 55rem;
+}
+
+.search_btn {
+    background-color: rgb(236, 236, 12);
+    border: 2px solid transparent;
+    height: 35px;
+    width: 40px;
+    border-radius: 30px;
+    margin-left: -35px;
+    cursor: pointer;
+}
+
+.cart {
+    height: 40px;
+    width: 40px;
+    border: 2px solid transparent;
+    background-color: rgba(89, 240, 89, 0.295);
+    border-radius: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.first2 {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    background-color: rgba(89, 240, 89, 0.295);
+    list-style: none;
+    display: flex;
+    width: 35rem;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    font-size: larger;
+}
+
+.contact {
+    background-color: yellow;
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.banner {
+    height: 65vh;
+    width: 100%;
+    background-color: green;
+}
+
+.photo {
+    display: flex;
+}
+
+.photo::before {
+    content: '';
+    background-color: green;
+    opacity: 0.5;
+    height: 65vh;
+    width: 100%;
+    position: absolute;
+}
+
+.words {
+    font-size: 70px;
+    margin-top: -320px;
+    padding-left: 100px;
+    position: absolute;
+    color: cornsilk;
+}
+
+.about {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo2::before {
+     content: '';
+     width: 350px;
+     height: 120px;
+     margin-top: 250px;
+     border: 3px solid yellow;
+     background-color: green;
+     opacity: 0.5;
+     position: absolute;
+}
+
+.company {
+    padding-left: 30px;
+}
+
+h1, h2 {
+    font-weight: bold;
+    font-size: 50px;
+    padding: 30px 20px 20px 20px;
+    color: rgb(40, 114, 40);
+}
+
+.one {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 30px ;
+}
+
+.two {
+    font-size: 20px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+
+.logo2 {
+    margin-top: -180px;
+    padding-left: 20px;
+    position: absolute;
+}
+
+.logo3 {
+    color: cornsilk;
+    font-size: 30px;
+}
+
+.about2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
+.last {
+    font-size: 20px;
+    padding-left: 30px;
+    letter-spacing: 1px;
+}
+
+
